@@ -1,0 +1,173 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*centralizando iten*/
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../assets/socialfood.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.conteiner{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    row-gap: 1px;
+    width: 100%;
+    height: 50vh;
+    max-width: 100vh;
+    background-color: transparent;
+    padding: 16px;
+    border: 1px solid #ffff;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    box-shadow: 10px 15px 15px rgba(118, 89, 74, 0.684);
+ }
+ 
+ .link a{
+    text-decoration: none;
+    font-size: 1,3rem;
+    color: white;
+    margin-bottom: 2rem;
+    transition: all 300ms ease;
+    margin-left: 45vh;
+ }
+
+ .link a:hover{
+    color:rgb(0, 0, 0);
+ }
+
+.cadastro form{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+    margin-inline:-14vh
+}
+
+.cadastro input{
+    outline: none;
+    background-color: #609966;
+    color: rgb(251, 246, 246);
+    width: 85%;
+    max-width: 100vh;
+    height: 36px;
+    border: 2px solid #80c788;
+    padding-left: 16px;
+    font-size: 14px;
+    margin-bottom: -3vh;
+    border-radius: 10px;
+}
+
+::placeholder {
+    width: 100%;
+    color: #ffffffd4;
+}
+ .cadastro button{
+    border-radius: 5px;
+    margin-bottom: -1px;
+    margin-inline: 16.5vh;
+    padding: 10px;
+    width: 20%;
+    font-size: 13px;
+    margin-block-start: 5px;   
+    color: white;
+    background-color: #609966;
+    border: 2px solid #f4f2f293;
+    font-family:'Poppins', sans-serif;;
+}
+.cadastro button:hover {
+    background-color: #80c788;
+}
+ 
+.cadastro h1{
+    margin-left: -1.4vh;
+    color: rgb(255, 255, 255);
+}
+
+.bloco1{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   margin-inline: 25vh
+
+}
+
+.bloco1 button{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;;    
+    background-color:#609966;
+    color: white;
+    border: 2px solid #f4f2f293 ;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-block-start: -8px;
+    margin-left: 3vh;
+    padding: 10px;
+    width: 53%;
+    margin-top: 2vh;
+}
+.bloco1 button:hover{
+    background-color:#80c788;
+}
+
+.bloco1 img{
+    width: 25vh;
+    height: 25vh;
+    margin-inline: 1vh;
+    margin-top: -5vh;
+}
+
+.bloco1 h1{
+        font-size: 15px;
+        color: rgb(0, 0, 0);
+        font-family: Poppins;
+}
+
+.bloco1 h2{
+    font-size: 20px;
+    color: linear-gradient(black,#609966);
+    margin-inline: 4vh;
+    margin-top: -1vh;
+    font-family: Blippo, fantasy;
+}
+.bloco1 h3{
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-inline: 2vh;
+    margin-top: 6vh;
+    font-family: var('Poppins', sans-serif;);
+}
+.error {
+    display: none;
+    padding: 2px;
+    font-family: var(--fonte-principal);
+    
+
+}
+.button {
+    margin-top: 5vh;
+    display: flex;
+    width: 40em;
+}

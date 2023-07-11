@@ -1,0 +1,161 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+</style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*centralizando iten*/
+html{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../assets//background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    row-gap: 10px;
+    width: 100%;
+    height: 50vh;
+    max-width: 100vh;
+    background-color: transparent;
+    padding: 16px;
+    border: 1px solid #ffff;
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    box-shadow: 10px 15px 15px rgba(118, 89, 74, 0.684);;
+ }
+ 
+ .link a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 2rem;
+    transition: all 300ms ease;
+    margin-left: 45vh;
+ }
+
+ .link a:hover{
+    color:rgb(0, 0, 0);
+ }
+
+.cadastro form{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.cadastro input{
+    outline: none;
+    background-color:#609966;
+    color: rgb(251, 246, 246);
+    width: 100%;
+    max-width: 100vh;
+    height: 36px;
+    border: 2px solid #f4f2f265;
+    padding-left: 16px;
+    font-size: 14px;
+    margin-bottom: -3px;
+    border-radius: 10px;
+}
+
+::placeholder {
+    width: 100%;
+    color: #ffffffd4;
+}
+
+ .cadastro button{
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-inline: 17.5vh;
+    font-size: 10px;
+    width: 35%;
+    font-size: 13px;
+    margin-block-start: 15px;   
+    color: white;
+    background-color: #609966;
+    border: 2px solid #f4f2f293;
+    padding: 10px;
+}
+
+.cadastro button:hover {
+    background-color:#6fb979;
+}
+ 
+.cadastro h1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 14.4vh;
+    color: white
+}
+
+.bloco1{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.bloco1 button{
+    text-decoration: none;
+    text-align: center;
+    font-family:'Poppins', sans-serif;;
+    background-color:#609966;
+    color: white;
+    border: 2px solid #f4f2f293 ;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-block-start: -8px;
+    margin-left: 2vh;
+    padding: 10px;
+    width: 60%;
+    margin-top: 0vh;
+    transition: all 300ms ease;
+}
+
+.bloco1 button:hover {
+    background-color:#6fb979;
+}
+
+.bloco1 img{
+    width: 25vh;
+    height: 25vh;
+    margin-inline: -1vh;
+    margin-top: -3vh;
+}
+
+.bloco1 h1{
+    font-size: 20px;
+    margin-inline: 4vh;
+    margin-block-end: -1vh;
+    font-family: Blippo, fantasy;
+    color: #040401;
+}
+
+.bloco1 h2{
+    font-family:'Poppins', sans-serif;
+    font-size: 14px;
+    color: black;
+    margin-inline: 2.8vh;
+    margin-top: 8vh;
+}

@@ -1,0 +1,54 @@
+
+
+.conteudo {
+    margin: 3.5em 20em;
+}
+
+.conteudo__titulo {
+    font-size: 4em;
+    margin-bottom: 1em;
+    color: var(--cor-secundaria);
+}
+
+.conteudo__texto {
+    font-size: 1.5em;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+}
+
+
+.card {
+    border: var(--cor-primaria) solid 1px;
+}
+
+.card:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--cor-primaria);
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.card-title {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.card-botao {
+    text-decoration: none;
+    color: black;
+    border: 1px solid var(--cor-primaria) ;
+    border-radius: 5px;
+    padding: 0.4em;
+    width: 50%;
+    text-align: center;
+}
+
+.card-botao:hover {
+  background-color: var(--cor-primaria);
+  color: white;
+}

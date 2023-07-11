@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefSocial | Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="bloco1">
+            <img src="../assets/logo-chefsocial.png" alt="logo">
+            <h2>Bem-Vindo!</h2>
+            <h3>Não possui conta?</h3>
+            <button type="button" class="outline" onclick="register()">Cadastre-se</button>
+        </div>
+        <form method="post" action="">
+            <p class="link">
+            <div class="cadastro">
+                <h1>Fazer Login</h1>
+        </form>
+        <form id="loginForm">
+            <div class="form-field">
+                <div><label>Email</label></div>
+                <input type="email" name="email" onchange="onChangeEmail()" placeholder="E-mail" id="email">
+                <div class="error" id="email-required-error">Email é obrigatório</div>
+                <div class="error" id="email-invalid-error">Email inválido</div>
+            </div>
+            <br>
+            <div class="form-field">
+                <div><label>Senha</label></div>
+                <input type="password" name="password" onchange="onChangePassword()" placeholder="Senha" id="password">
+                <div class="error" id="password-required-error">Senha é obrigatória</div>
+            </div>
+            <div class="button">
+                <button type="button" class="solid" id="login-button" onclick="login()">Entrar</button>
+            </div>
+    </div>
+    </div>
+    </form>
+</body>
+<script type="module" src="../js/firebase.js"></script>
+<script src="../js/login.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyBTNonozZmbfBQoCJsy8pEbTu01kOtsx6U",
+        authDomain: "projeto-chefsocial.firebaseapp.com",
+        projectId: "projeto-chefsocial",
+        storageBucket: "projeto-chefsocial.appspot.com",
+        messagingSenderId: "863026675035",
+        appId: "1:863026675035:web:e41777c5227660f15f6e7e",
+        measurementId: "G-ES7F8X9SP5"
+    };
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+</html>

@@ -1,0 +1,52 @@
+
+.menu-lateral {
+    width: 60px;
+    height: 100%;
+    background-color: var(--cor-primaria);
+    padding: 40px 0px 40px 1%;      
+    box-shadow: 3px 0px 0px var(--cor-secundaria);
+/*O position é para que quando role a pág o menu acompanhe e assim não tem que subir para ve-lo*/
+    position: fixed;
+    top: 7.6em;
+    overflow:hidden;
+} 
+
+.menu-lateral:hover{
+    width: 300px;
+    transition: 0.2s;
+}
+
+.logo-menu {
+    width: 2em;
+    height: 1.5em;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+    margin-left: 2.5em;
+}
+
+.item-menu {
+    transition: 0.1s; 
+    width: 15em;
+}
+
+.item-menu:hover {
+    background-color: var(--cor-secundaria);
+}
+
+.categorias{
+    margin-top: 1em;
+    gap: 1em;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px 4px;
+    text-decoration: none;  
+}
+
+.icones {
+    width: 2em;
+}

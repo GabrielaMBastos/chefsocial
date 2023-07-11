@@ -1,0 +1,66 @@
+*{
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nome_de_usuario{
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    color: #BF9780;
+    margin: 10px;
+    padding-left: 42px;
+}
+h1{
+font-family: var(--fonte-principal);
+font-size: 48px;
+color: #BF9780;
+margin: 18px;
+padding-left: 38px;
+}
+.lista_de_receitas_usuario {
+    margin: 30px;
+    font-size: 28px;
+    width: 50%;
+    height: 50%;
+    margin-top: 2%;
+}
+.conteudo_usuario {
+    margin-top: 5%;
+}
+svg {
+    margin-left: 10px;
+}
+.Adicionar_nova_receita{
+    font-family: var(--fonte-principal);
+    color: #BF9780;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 2em;
+    
+}
+.editar_receita{
+    border: transparent;
+}
+.excluir_receita{
+    border: transparent;
+    
+}
+.adicionar_receita{
+    border: none;
+    color: rgb(2, 88, 2);
+}
+p {
+    font-size: 32px;
+    color: #BF9780;
+    margin: 18px;
+    padding-left: 38px;
+}
+
+.div-nome-usuario {
+    display: flex;
+    align-items: center;
+}

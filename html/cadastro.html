@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefSocial | Cadastro</title>
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="bloco1">
+            <img src="../assets/logo-chefsocial.png" alt="logo">
+            <h1>Bem-Vindo!</h2>
+                <h2>Já possui conta?</h3>
+                    <button type="button" class="outline" id="loginRedirect">Fazer Login</button>
+        </div>
+        <form id="cadastroForm">
+            <p class="link">
+                <a href="../index.html">Inicío</a>
+            <div class="cadastro">
+                <h1>Cadastre-se</h1>
+                <label for="name"><br></label>
+                <input type="text" name="usuario" placeholder="Nome">
+                <label for="email"><br></label>
+                <input type="email" name="email" placeholder="E-mail">
+                <label for="password"><br></label>
+                <input type="password" name="senha" placeholder="Senha">
+
+                <div class="button">
+                    <button type="submit" id="cadastrar">Cadastrar</button>
+                </div>
+        </form>
+
+    </div>
+    </div>
+</body>
+<script type="module" src="../js/firebase.js"></script>
+<script type="module" src="../js/cadastro.js"></script>
+
+</html>

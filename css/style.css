@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url(cabeçalho.css);
+@import url(menu-lateral.css);
+@import url(página-receitas.css);
+@import url(pagina-inicial.css);
+@import url(receita-especifica.css);
+
+:root {
+    --fonte-principal: "Poppins";
+    --cor-primaria: #609966;
+    --cor-secundaria: #BF9780;
+    --cor-de-fundo: #FFFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo) ;
+    font-size: 1em;
+    font-weight: 400;
+    box-sizing: border-box;
+}
